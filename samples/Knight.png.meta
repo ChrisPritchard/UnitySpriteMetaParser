@@ -1,0 +1,473 @@
+fileFormatVersion: 2
+guid: f95138cce0ec2584d899b94050dd0217
+timeCreated: 1434756829
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: standleft1
+    21300002: standright1
+    21300004: MiniKnight_2
+    21300006: MiniKnight_3
+    21300008: MiniKnight_4
+    21300010: MiniKnight_5
+    21300012: MiniKnight_6
+    21300014: MiniKnight_7
+    21300016: MiniKnight_8
+    21300018: MiniKnight_9
+    21300020: MiniKnight_10
+    21300022: MiniKnight_11
+    21300024: MiniKnight_12
+    21300026: MiniKnight_13
+    21300028: MiniKnight_14
+    21300030: MiniKnight_15
+    21300032: MiniKnight_16
+    21300034: MiniKnight_17
+    21300036: MiniKnight_18
+    21300038: MiniKnight_19
+    21300040: MiniKnight_20
+    21300042: MiniKnight_21
+    21300044: MiniKnight_22
+    21300046: MiniKnight_23
+    21300048: MiniKnight_24
+    21300050: MiniKnight_25
+    21300052: MiniKnight_26
+    21300054: MiniKnight_27
+    21300056: guardleft1
+    21300058: guardright1
+    21300060: standleft2
+    21300062: standright2
+    21300064: guardleft2
+    21300066: guardright2
+    21300068: deadLeft1
+    21300070: deadLeft2
+    21300072: deadRight1
+    21300074: deadRight2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: standleft1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 164
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: standright1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 164
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 164
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 164
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 164
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 164
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 102
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 102
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 102
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 102
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 102
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 102
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_12
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 102
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 102
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_14
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 102
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 66
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 66
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_17
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 66
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_18
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 66
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 66
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_20
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 66
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 66
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_22
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 66
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_23
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 66
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_25
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 6
+        width: 21
+        height: 16
+      alignment: 9
+      pivot: {x: .649999976, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_26
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 6
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MiniKnight_27
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 6
+        width: 21
+        height: 16
+      alignment: 9
+      pivot: {x: .349999994, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardleft1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 6
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardright1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 6
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: standleft2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 164
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: standright2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 164
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardleft2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 6
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardright2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 6
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: deadLeft1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 102
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: deadLeft2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 102
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: deadRight1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 66
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: deadRight2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 66
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

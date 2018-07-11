@@ -33,7 +33,7 @@ let getInfo path =
 let main argv =
     let (path, out) =
         match argv with
-        | [|inPath|] -> inPath,"./output.csv"
+        | [|inPath|] -> inPath,"./result.csv"
         | [|inPath;outPath|] -> inPath,outPath
         | _ -> "",""
     if path = "" || File.Exists path |> not then
@@ -46,5 +46,5 @@ let main argv =
             -2
         else
             let text = sprintf "name,x,y,width,height\r\n%s" <| (info |> Seq.rev |> Seq.map (fun (n, x, y, w, h) -> sprintf "%s,%i,%i,%i,%i" n x y w h) |> String.concat "\r\n")
-            File.WriteAllText ("./result.csv", text)
+            File.WriteAllText (out, text)
             0
