@@ -2,7 +2,7 @@
 open System.IO
 
 let getInfo path = 
-    System.IO.File.ReadAllLines path
+    System.IO.File.ReadAllLines path 
         |> Seq.fold (fun (all, current) line -> 
             let clean = line.Trim().Replace("\t", "")
             match current with
@@ -29,22 +29,21 @@ let getInfo path =
                 else
                     (all, current)) ([], None) |> fst
 
+let isInt x = (System.Int64.TryParse (x : string)) |> fst
+
 [<EntryPoint>]
 let main argv =
-    let (path, out) =
-        match argv with
-        | [|inPath|] -> inPath,"./result.csv"
-        | [|inPath;outPath|] -> inPath,outPath
-        | _ -> "",""
-    if path = "" || File.Exists path |> not then
-        printfn "A valid input file path was not specified"
+    match argv with
+    | [|inPath;outPath;height|] when File.Exists inPath && isInt height -> 
+        let ih = int height
+        let info = getInfo inPath
+        let text = 
+            sprintf "name,x,y,width,height\r\n%s" <| 
+            (info |> Seq.rev |> Seq.map (fun (n, x, y, w, h) -> 
+                sprintf "%s,%i,%i,%i,%i" n x (ih - y - h) w h) |> String.concat "\r\n")
+        File.WriteAllText (outPath, text)
+        0
+    | _ ->
+        printfn "Invalid args. Should be:"
+        printfn "[existing meta file] [output path] [image height in pixels]"
         -1
-    else
-        let info = getInfo path
-        if Seq.isEmpty info then
-            printfn "File specified did not contain any image info"
-            -2
-        else
-            let text = sprintf "name,x,y,width,height\r\n%s" <| (info |> Seq.rev |> Seq.map (fun (n, x, y, w, h) -> sprintf "%s,%i,%i,%i,%i" n x y w h) |> String.concat "\r\n")
-            File.WriteAllText (out, text)
-            0

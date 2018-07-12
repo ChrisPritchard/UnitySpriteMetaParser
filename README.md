@@ -9,6 +9,8 @@ Simple project to pull the name, x, y, width and height values out of a sprite m
 - These frames amount to x, y, width and height values, and are stored in a detailed YAML file.
 - This project reads such a YAML file, extracts the name, x, y, width and height of each 'frame', and outputs the result as a CSV
 
+In Unity Meta files, the Y axis is bottom-up. This program inverts this: a Y of 164 with a 16 height in a 216 pixel image becomes a Y of (216 - 164 - 16) = 36)
+
 ## Instructions
 
 Run using at least the path to the meta file. You can option specify a second argument containing the output csv file path.
